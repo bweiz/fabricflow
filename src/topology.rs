@@ -1,11 +1,8 @@
-
-
 pub struct PeArray {
     pub rows: usize,
     pub columns: usize,
     pub macs_per_pe_per_cycle: usize,
 }
-
 
 impl PeArray {
     pub fn total_pes(&self) -> usize {
